@@ -45,6 +45,9 @@ $(document).ready(function(){
 	    <li><a href="#lettering">Lettering</a></li>
 	    <li><a href="#kern">Kern</a></li>
 	    <li><a href="#hinting">Hinting</a></li>
+	    <li><a href="#serbian">Serbian</a></li>
+	    <li><a href="#bulgarian">Bulgarian</a></li>
+	    <li><a href="#ukrainian">Ukrainian</a></li>
 	  </ul>
 	
 	  <!-- Headlines (Content injected via constants-cyr.js) -->
@@ -105,6 +108,17 @@ $(document).ready(function(){
 	  <!-- Layout -->
 	  <div id="layout">
 	  	<?php include("includes/cyrillic/layout.php"); ?>						
+	  </div>
+
+	  <!-- Layout Extra -->
+	  <div id="serbian">
+	  	<?php include("includes/cyrillic/layout-sr.php"); ?>						
+	  </div>
+	  <div id="bulgarian">
+	  	<?php include("includes/cyrillic/layout-bg.php"); ?>						
+	  </div>
+	  <div id="ukrainian">
+	  	<?php include("includes/cyrillic/layout-ua.php"); ?>						
 	  </div>
 
 	  <!-- Lettering Sheet -->

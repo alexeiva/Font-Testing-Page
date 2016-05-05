@@ -22,6 +22,7 @@
 				<input type="checkbox" id="swsh" onchange="refreshFeatures()">Swashes</input><br/>
 				<input type="checkbox" id="salt" onchange="refreshFeatures()">Stylistic Alternates</input><br/>
 				<input type="checkbox" id="titl" onchange="refreshFeatures()">Titling</input>
+				<input type="checkbox" id="locl" onchange="refreshFeatures()">Local Forms</input>
 			</td>
 			<td valign="top" width="25%">
 				<input type="radio" name="smcp" checked onchange="refreshFeatures()">SmallCaps Off</input><br/>
