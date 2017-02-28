@@ -1,5 +1,5 @@
 <div style="width: 920px;" contenteditable="true">
-	<section lang="sr">
+	<section lang="bg">
 	<p class="sizelabel">Heading 60px, Subhead 24px, Body 16px</p>
 	<p style="font-size: 60px;">революционери и будители</p>
 	<blockquote style="font-size: 24px; text-align: right;">
